@@ -1,62 +1,77 @@
 # Web Studio
 
-Homework project for the GoIT Fullstack course.
+Homework project #2 for the GoIT Fullstack course.
 
-This project contains the semantic HTML markup for the **Web Studio** landing page based on the provided Figma design.
+The project implements the semantic HTML markup and CSS styling of the
+**Web Studio** landing page based on the provided Figma design.
 
-## 🔗 Links
+## Links
 
-* **GitHub Repository:** https://github.com/Ivanduik/goit-markup-hw-01
-* **Live Page:** https://ivanduik.github.io/goit-markup-hw-01/
-* **Figma Design:** https://www.figma.com/design/folOvI69KUmwYN47Njpr0O/Web-Studio--Version-5.1-?node-id=296708-626&p=f
+- **GitHub Repository:** https://github.com/Ivanduik/goit-markup-hw-02
+- **Live Page:** https://ivanduik.github.io/goit-markup-hw-02/
+- **Figma Design:** https://www.figma.com/design/folOvI69KUmwYN47Njpr0O/Web-Studio--Version-5.1-?node-id=296708-626&p=f
 
-## 📋 Project Description
+## Project Description
 
 The page includes the following sections:
 
-* Header
-* Hero
-* Our Features
-* Our Team
-* Our Portfolio
-* Footer
+- Header
+- Hero
+- Our Features
+- Our Team
+- Our Portfolio
+- Footer
 
-The project was created using semantic HTML5 markup without CSS styling as part of Homework #1.
+Homework #2 adds typography, colors, backgrounds, interactive states, and
+section-specific styles to the semantic markup created in Homework #1.
 
-## 🛠 Technologies
+## Technologies
 
-* HTML5
-* Semantic HTML
-* Git
-* GitHub
-* GitHub Pages
-* Prettier
+- HTML5
+- CSS3
+- Modern Normalize
+- Google Fonts (Roboto and Raleway)
+- Git and GitHub
+- GitHub Pages
+- Prettier
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
-goit-markup-hw-01/
+goit-markup-hw-02/
+├── css/
+│   ├── common.css
+│   ├── features.css
+│   ├── footer.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── main.css
+│   ├── portfolio.css
+│   └── team.css
 ├── images/
 │   ├── icons/
 │   ├── portfolio/
 │   └── team/
+├── .gitignore
+├── .prettierrc
 ├── index.html
 └── README.md
 ```
 
-## ✅ Features
+## Features
 
-* Semantic HTML5 structure
-* Anchor navigation between page sections
-* Functional email link using `mailto:`
-* Functional phone link using `tel:`
-* Images with `alt`, `width`, and `height` attributes
-* Lists for groups of similar elements
-* HTML code formatted with Prettier
-* HTML validated with W3C Validator
-* Published using GitHub Pages
+- Semantic HTML5 structure
+- Modular CSS organized by page section
+- Shared typography styles in `common.css`
+- Anchor navigation between page sections
+- Hover and focus states for interactive elements
+- Functional email link using `mailto:`
+- Functional phone link using `tel:`
+- Images with `alt`, `width`, and `height` attributes
+- Code formatted with Prettier
+- Published using GitHub Pages
 
-## 👨‍💻 Author
+## Author
 
 **Victor Ivanduik**
 
